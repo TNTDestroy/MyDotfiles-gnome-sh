@@ -1,0 +1,182 @@
+[control-center]
+last-panel='keyboard'
+window-state=(980, 640, true)
+
+[desktop/app-folders]
+folder-children=['Utilities', 'YaST', 'Pardus']
+
+[desktop/app-folders/folders/Pardus]
+categories=['X-Pardus-Apps']
+name='X-Pardus-Apps.directory'
+translate=true
+
+[desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Loupe.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[desktop/background]
+picture-uri='file:///usr/share/backgrounds/gnome/blobs-l.svg'
+picture-uri-dark='file:///usr/share/backgrounds/gnome/blobs-l.svg'
+
+[desktop/input-sources]
+mru-sources=[('xkb', 'us')]
+sources=[('xkb', 'us')]
+xkb-options=@as []
+
+[desktop/interface]
+cursor-theme='Bibata-Modern-Ice'
+document-font-name='SF Pro Text Medium 11'
+enable-animations=true
+font-antialiasing='grayscale'
+font-name='SF Pro Text Medium 11'
+gtk-theme='adw-gtk3'
+icon-theme='Reversal'
+monospace-font-name='Monospace 10'
+show-battery-percentage=true
+
+[desktop/notifications]
+application-children=['gnome-initial-setup', 'org-gnome-nautilus', 'com-mattjakeman-extensionmanager', 'org-gnome-font-viewer']
+
+[desktop/notifications/application/com-mattjakeman-extensionmanager]
+application-id='com.mattjakeman.ExtensionManager.desktop'
+
+[desktop/notifications/application/gnome-initial-setup]
+application-id='gnome-initial-setup.desktop'
+
+[desktop/notifications/application/org-gnome-font-viewer]
+application-id='org.gnome.font-viewer.desktop'
+
+[desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[desktop/peripherals/touchpad]
+speed=0.47368421052631571
+two-finger-scrolling-enabled=true
+
+[desktop/privacy]
+old-files-age=uint32 30
+recent-files-max-age=-1
+
+[desktop/session]
+idle-delay=uint32 300
+
+[desktop/sound]
+event-sounds=true
+
+[desktop/wm/preferences]
+button-layout='appmenu:minimize,maximize,close'
+
+[evolution-data-server]
+migrated=true
+
+[gnome-system-monitor]
+current-tab='resources'
+show-dependencies=false
+show-whose-processes='user'
+
+[gnome-system-monitor/disktreenew]
+col-6-visible=true
+col-6-width=0
+columns-order=[5]
+sort-col=1
+sort-order=0
+
+[mutter]
+center-new-windows=false
+edge-tiling=false
+experimental-features=@as []
+
+[mutter/keybindings]
+toggle-tiled-left=@as []
+toggle-tiled-right=@as []
+
+[nautilus/preferences]
+default-folder-viewer='icon-view'
+migrated-gtk-settings=true
+search-filter-time-type='last_modified'
+
+[nautilus/window-state]
+initial-size=(1132, 687)
+
+[settings-daemon/plugins/power]
+power-button-action='suspend'
+sleep-inactive-ac-timeout=2700
+sleep-inactive-ac-type='suspend'
+
+[shell]
+enabled-extensions=['ubuntu-appindicators@ubuntu.com', 'kimpanel@kde.org', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com', 'blur-my-shell@aunetx', 'just-perfection-desktop@just-perfection', 'Vitals@CoreCoding.com', 'burn-my-windows@schneegans.github.com', 'logomenu@aryan_k']
+welcome-dialog-last-shown-version='46.0'
+
+[shell/extensions/Logo-menu]
+menu-button-icon-image=14
+menu-button-icon-size=22
+show-lockscreen=true
+show-power-options=true
+symbolic-icon=false
+use-custom-icon=false
+
+[shell/extensions/blur-my-shell]
+settings-version=2
+
+[shell/extensions/blur-my-shell/appfolder]
+brightness=0.59999999999999998
+sigma=30
+
+[shell/extensions/blur-my-shell/dash-to-dock]
+blur=true
+brightness=0.59999999999999998
+sigma=30
+static-blur=true
+style-dash-to-dock=0
+
+[shell/extensions/blur-my-shell/panel]
+brightness=0.59999999999999998
+sigma=30
+
+[shell/extensions/blur-my-shell/window-list]
+brightness=0.59999999999999998
+sigma=30
+
+[shell/extensions/burn-my-windows]
+active-profile='/home/teindugn/.config/burn-my-windows/profiles/1767216300945598.conf'
+last-extension-version=47
+last-prefs-version=47
+prefs-open-count=2
+preview-effect=''
+
+[shell/extensions/ding]
+check-x11wayland=true
+
+[shell/extensions/tiling-assistant]
+active-window-hint-color='rgb(211,70,21)'
+last-version-installed=46
+overridden-settings={'org.gnome.mutter.edge-tiling': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-left': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-right': <@mb nothing>}
+
+[shell/extensions/vitals]
+fixed-widths=false
+hide-icons=false
+hide-zeros=false
+hot-sensors=['_memory_usage_', '__network-rx_max__', '_temperature_processor_0_', '_voltage_bat0_in0_', '_processor_frequency_', '_system_uptime_', '_battery_capacity_']
+icon-style=0
+position-in-panel=2
+show-battery=true
+show-gpu=true
+update-time=1
+use-higher-precision=false
+
+[shell/world-clocks]
+locations=@av []
+
+[terminal/legacy]
+theme-variant='dark'
+
+[terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+font='MesloLGS NF 12'
+use-system-font=false

@@ -1,0 +1,9 @@
+kimpanel@kde.org
+ubuntu-appindicators@ubuntu.com
+user-theme@gnome-shell-extensions.gcampax.github.com
+dash-to-dock@micxgx.gmail.com
+blur-my-shell@aunetx
+just-perfection-desktop@just-perfection
+Vitals@CoreCoding.com
+burn-my-windows@schneegans.github.com
+logomenu@aryan_k
