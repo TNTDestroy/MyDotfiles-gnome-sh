@@ -1,6 +1,6 @@
 [control-center]
-last-panel='notifications'
-window-state=(980, 640, true)
+last-panel='sound'
+window-state=(980, 640, false)
 
 [desktop/app-folders]
 folder-children=['Utilities', 'YaST', 'Pardus']
@@ -32,18 +32,18 @@ xkb-options=@as []
 
 [desktop/interface]
 cursor-theme='Bibata-Modern-Ice'
-document-font-name='SF Pro Text Medium 11'
+document-font-name='Cantarell 11'
 enable-animations=true
-font-antialiasing='rgba'
-font-hinting='full'
-font-name='SF Pro Text Medium 11'
+font-antialiasing='grayscale'
+font-hinting='slight'
+font-name='SF Pro Display 11'
 gtk-theme='adw-gtk3'
 icon-theme='Reversal'
 monospace-font-name='Monospace 10'
 show-battery-percentage=true
 
 [desktop/notifications]
-application-children=['gnome-initial-setup', 'org-gnome-nautilus', 'com-mattjakeman-extensionmanager', 'org-gnome-font-viewer', 'firefox', 'org-gnome-software', 'antigravity']
+application-children=['gnome-initial-setup', 'org-gnome-nautilus', 'com-mattjakeman-extensionmanager', 'org-gnome-font-viewer', 'firefox', 'org-gnome-software', 'antigravity', 'gnome-power-panel']
 
 [desktop/notifications/application/antigravity]
 application-id='antigravity.desktop'
@@ -56,6 +56,9 @@ application-id='firefox.desktop'
 
 [desktop/notifications/application/gnome-initial-setup]
 application-id='gnome-initial-setup.desktop'
+
+[desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
 
 [desktop/notifications/application/org-gnome-font-viewer]
 application-id='org.gnome.font-viewer.desktop'
